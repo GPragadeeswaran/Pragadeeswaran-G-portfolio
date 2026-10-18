@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal Portfolio of Pragadeeshwaran - Python Backend Developer">
+    <meta name="author" content="Pragadeeshwaran">
+
+    <title>Pragadeeshwaran | Python Backend Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+            <div class="container">
+
+                <a class="navbar-brand d-flex align-items-center" href="#home">
+                    <img src="assets/images/logo.png"
+                         alt="Logo"
+                         width="40"
+                         height="40"
+                         class="me-2 rounded-circle">
+                    <span>Pragadeesh</span>
+                </a>
+
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#journey">Journey</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+
+                    <button id="theme-toggle"
+                            class="btn btn-outline-dark me-2"
+                            aria-label="Toggle dark mode">
+                        🌙
+                    </button>
+
+                    <a href="assets/documents/Pragadeeswaran Resume.pdf"
+                       class="btn btn-primary ms-lg-3"
+                       download>
+                        Resume
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+        <section id="home" class="py-5">
+            <div class="container">
+                <div class="row align-items-center" data-aos="fade-up">
+
+                    <!-- Hero Content -->
+                    <div class="col-lg-6">
+                        <p class="text-primary fw-semibold mb-2">👋 Hi, I'm</p>
+
+                        <h1 class="display-4 fw-bold">Pragadeeswaran</h1>
+
+                        <h2 class="h4 mb-4">
+                            <span id="typing"></span>
+                        </h2>
+
+                        <p class="lead">
+                            I build backend applications using Python, FastAPI, Flask, and PostgreSQL.
+                            My projects focus on REST APIs, database operations, and practical software
+                            solutions. I'm continuing to strengthen my backend engineering skills
+                            through hands-on work.
+                        </p>
+
+                        <!-- Hero Buttons -->
+                        <div class="hero-buttons d-flex flex-wrap gap-3">
+                            <a href="#projects" class="btn btn-primary btn-lg">
+                                View Projects
+                            </a>
+
+                            <a href="assets/documents/Pragadeeswaran Resume.pdf"
+                               class="btn btn-outline-primary btn-lg"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Download Resume
+                            </a>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="social-links mt-4">
+                            <a href="https://github.com/GPragadeeswaran"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                GitHub
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/gpragadeeswaran/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Hero Profile Image -->
+                    <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                        <img src="assets/images/profile.jpeg"
+                             alt="Pragadeeshwaran Profile Photo"
+                             class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT SECTION ================= -->
+        <section id="about" data-aos="fade-up">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">About Me</h2>
+                    <p>
+                        A little about my background, the projects I've built, and the software
+                        work I want to contribute to.
+                    </p>
+                </div>
+
+                <div class="row align-items-center">
+
+                    <!-- About Image -->
+                    <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                        <img src="assets/images/profile.jpeg"
+                             alt="About Profile"
+                             class="img-fluid about-image">
+                    </div>
+
+                    <!-- About Content -->
+                    <div class="col-lg-7">
+                        <h3 class="fw-bold mb-3">
+                            Computer Science Engineering Graduate
+                        </h3>
+
+                        <p>
+                            I'm a Computer Science Engineering graduate interested in Python
+                            backend development. During my internship at VDart Software, I worked
+                            on a Leave Management System using Flask and PostgreSQL. I also built
+                            a GitHub Repository Analyzer to explore repository structure,
+                            technology detection, and rule-based health scoring.
+                        </p>
+
+                        <p>
+                            I learn by building projects, debugging problems, and understanding
+                            how each component works. I'm looking for an opportunity to contribute
+                            to software development and API-related projects while growing as an engineer.
+                        </p>
+
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <h6 class="fw-bold">Education</h6>
+                                <p>B.E. Computer Science Engineering</p>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h6 class="fw-bold">Current Focus</h6>
+                                <p>Python Backend Development &amp; API Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS SECTION ================= -->
+        <section id="skills" data-aos="fade-right">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Technical Skills</h2>
+                    <p class="section-description">
+                        Technologies and tools I've used in my projects and backend development practice.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- Backend -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="skill-card">
+                            <h4>💻 Backend</h4>
+                            <ul>
+                                <li>Python</li>
+                                <li>Object-Oriented Programming</li>
+                                <li>FastAPI</li>
+                                <li>REST API</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="skill-card">
+                            <h4>🗄 Database</h4>
+                            <ul>
+                                <li>PostgreSQL</li>
+                                <li>SQL</li>
+                                <li>CRUD Operations</li>
+                                <li>Database Design</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="skill-card">
+                            <h4>🌐 Frontend</h4>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="skill-card">
+                            <h4>🛠 Tools &amp; API</h4>
+                            <ul>
+                                <li>Git &amp; GitHub</li>
+                                <li>VS Code</li>
+                                <li>Postman</li>
+                                <li>Swagger UI</li>
+                                <li>API Testing</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- ================= PROJECTS SECTION ================= -->
+        <section id="projects" data-aos="zoom-in">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Featured Projects</h2>
+                    <p class="section-description">
+                        Projects that demonstrate my work with backend APIs, repository analysis,
+                        and database-driven applications.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- Project 1 -->
+                    <div class="col-lg-6">
+                        <div class="project-card">
+                            <h3>GitHub Repository Analyzer</h3>
+
+                            <p>
+                                A Python and FastAPI application that analyzes GitHub repositories
+                                to identify technology stacks and repository health indicators
+                                using modular detection services and rule-based scoring.
+                            </p>
+
+                            <h6>Tech Stack</h6>
+                            <p>Python • FastAPI • PostgreSQL • GitHub API • Git</p>
+
+                            <div class="project-buttons">
+                                <a href="https://github.com/GPragadeeswaran/AI-Software-Engineer-Assistant"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="btn btn-dark">
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-lg-6">
+                        <div class="project-card">
+                            <h3>Leave Management System</h3>
+
+                            <p>
+                                A role-based web application that enables employees to apply
+                                for leave and allows administrators to approve or reject requests.
+                            </p>
+
+                            <h6>Tech Stack</h6>
+                            <p>Python • Flask • PostgreSQL • HTML • CSS</p>
+
+                            <div class="project-buttons">
+                                <a href="https://github.com/GPragadeeswaran/leave-management-system"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="btn btn-dark">
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROFESSIONAL JOURNEY SECTION ================= -->
+        <section id="journey" class="py-5" data-aos="fade-left">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Professional Journey</h2>
+                    <p class="section-description">
+                        A timeline highlighting my learning, internship, and software development journey.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="timeline">
+
+                <!-- Internship -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+                        <span class="timeline-year">July 2025</span>
+
+                        <h4>Software Developer Intern</h4>
+                        <h6>VDart Software Pvt. Ltd.</h6>
+
+                        <ul>
+                            <li>Worked on a Leave Management System using Python and Flask.</li>
+                            <li>Used PostgreSQL for database operations and employee leave records.</li>
+                            <li>Contributed to team coordination and worked toward the project deadline.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Graduation -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+                        <span class="timeline-year">2026</span>
+
+                        <h4>B.E. Computer Science Engineering</h4>
+                        <h6>CARE College of Engineering</h6>
+
+                        <ul>
+                            <li>Graduated in Computer Science Engineering.</li>
+                            <li>Focused on Backend Development and Software Engineering.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Personal Project -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+                        <span class="timeline-year">2026 – Present</span>
+
+                        <h4>GitHub Repository Analyzer</h4>
+                        <h6>Personal Project</h6>
+
+                        <ul>
+                            <li>Developing repository analysis features using Python and FastAPI.</li>
+                            <li>Working on technology detection, repository health scoring, and API workflows.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+                <!-- ================= CONTACT SECTION ================= -->
+        <section id="contact" class="py-5" data-aos="fade-up">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Let's Connect</h2>
+
+                    <p class="section-description">
+                        I'm interested in junior Python backend, software development,
+                        and API-related opportunities.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- Email -->
+                    <div class="col-md-4">
+                        <div class="contact-card">
+                            <h4>Email</h4>
+                            <p>pragadeeswaran611@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div class="col-md-4">
+                        <div class="contact-card">
+                            <h4>LinkedIn</h4>
+
+                            <a href="https://www.linkedin.com/in/gpragadeeswaran/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View Profile
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- GitHub -->
+                    <div class="col-md-4">
+                        <div class="contact-card">
+                            <h4>GitHub</h4>
+
+                            <a href="https://github.com/GPragadeeswaran"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Visit GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Resume Button -->
+                <div class="text-center mt-5">
+                    <a href="assets/documents/Pragadeeswaran Resume.pdf"
+                       class="btn btn-primary btn-lg"
+                       download>
+                        Download Resume
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="container">
+
+            <h3>Building Practical Software, One Project at a Time</h3>
+
+            <p>
+                Thanks for visiting my portfolio. I'm continuing to learn by building
+                projects and would welcome opportunities to contribute to a software
+                development team.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="https://github.com/GPragadeeswaran"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/gpragadeeswaran/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+                <a href="mailto:pragadeeswaran611@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </a>
+
+            </div>
+
+            <hr>
+
+            <p class="copyright">
+                © 2026 Pragadeeshwaran.
+                Built with HTML, CSS, Bootstrap &amp; ❤️
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
