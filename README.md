@@ -1,153 +1,107 @@
-# 💼 Pragadeesh Portfolio Website
 
-A modern, responsive, and professional portfolio website showcasing my skills, projects, education, and software engineering journey. This portfolio is designed to present my work, technical expertise, and career profile to recruiters and developers.
+# Pragadeeswaran G — Developer Portfolio
 
----
+Welcome to my personal developer portfolio! 👋
 
-## 🚀 Live Demo
+I'm a Computer Science Engineering graduate interested in **Python Backend Development, REST APIs, and database-driven applications**. This portfolio showcases my technical skills, projects, internship experience, and learning journey.
 
-🔗 Coming Soon (GitHub Pages)
+## 🌐 Live Portfolio
 
----
+**Portfolio Website:**  
+[Visit My Portfolio](https://gpragadeeswaran.github.io/Pragadeeswaran-G-portfolio/)
 
-## 📸 Preview
+## 👨‍💻 About Me
 
-> Add a screenshot of your homepage here after deployment.
+- 🎓 B.E. Computer Science Engineering graduate
+- 💻 Interested in Python Backend Development and API Engineering
+- 🛠️ Hands-on project experience with Python, FastAPI, Flask, and PostgreSQL
+- 🚀 Focused on building practical software solutions and improving my development skills
+- 🤝 Open to suitable entry-level software development opportunities
 
----
+## 🛠️ Technical Skills
 
-## ✨ Features
+| Category | Technologies |
+|---|---|
+| Programming | Python, SQL |
+| Backend Development | FastAPI, Flask, REST APIs |
+| Database | PostgreSQL |
+| Frontend | HTML5, CSS3, Bootstrap |
+| Developer Tools | Git, GitHub, VS Code, Postman, Swagger UI |
 
-- 🎨 Modern and responsive UI
-- 🌙 Light & Dark mode toggle
-- 📱 Mobile-friendly design
-- ⚡ Smooth scrolling navigation
-- 💻 Project showcase with GitHub links
-- 👨‍💻 About Me section
-- 🛠️ Skills section
-- 📈 Professional Journey timeline
-- 📬 Contact section
-- 📄 Resume download button
+## 🚀 Featured Projects
 
----
+### 1. GitHub Repository Analyzer
 
-## 🛠️ Tech Stack
+A Python and FastAPI application designed to analyze GitHub repositories and identify technology stacks and repository health indicators.
 
-### Frontend
+**Key Features**
+- Repository analysis using GitHub-related workflows
+- Technology and framework detection
+- Rule-based repository health scoring
+- Confidence scores and repository recommendations
+- REST API endpoints documented through Swagger UI
+
+**Tech Stack:** Python, FastAPI, PostgreSQL, GitHub API, Git
+
+**Source Code:**  
+[View GitHub Repository](https://github.com/GPragadeeswaran/AI-Software-Engineer-Assistant)
+
+### 2. Leave Management System
+
+A web application that helps employees apply for leave and allows administrators to review leave requests and approve or reject them.
+
+**Key Features**
+- Employee leave application workflow
+- Leave request management
+- Role-based access control
+- Database operations for leave records
+
+**Tech Stack:** Python, Flask, PostgreSQL, HTML, CSS
+
+**Source Code:**  
+[View GitHub Repository](https://github.com/GPragadeeswaran/leave-management-system)
+
+## 💼 Internship Experience
+
+**Software Developer Intern — VDart Software Pvt. Ltd.**  
+*July 2025*
+
+- Worked on a Leave Management System using Python and Flask.
+- Used PostgreSQL for database operations and employee leave records.
+- Collaborated on project tasks and worked toward project deadlines.
+
+## 🎓 Education
+
+**B.E. Computer Science and Engineering**  
+CARE College of Engineering, Trichy  
+2022–2026
+
+## ✨ Portfolio Features
+
+- Responsive layout for desktop and mobile devices
+- Light and dark theme toggle
+- Animated professional title
+- Scroll-based section animations
+- Dedicated sections for skills, projects, education, and experience
+- GitHub, LinkedIn, and resume links
+
+## 🧰 Technologies Used to Build This Portfolio
 
 - HTML5
 - CSS3
-- Bootstrap 5
+- Bootstrap
 - JavaScript
+- AOS — Animate On Scroll
+- Typed.js
 
-### Design
+## 📬 Connect With Me
 
-- Font Awesome Icons
-- Google Fonts (Poppins)
-
-### Version Control
-
-- Git
-- GitHub
+- **GitHub:** [GPragadeeswaran](https://github.com/GPragadeeswaran)
+- **LinkedIn:** [Pragadeeswaran G](https://www.linkedin.com/in/gpragadeeswaran/)
+- **Email:** [pragadeeswaran611@gmail.com](mailto:pragadeeswaran611@gmail.com)
 
 ---
 
-## 📂 Project Structure
+⭐ Thank you for visiting my portfolio repository!
 
-```
-portfolio-website/
-│
-├── assets/
-│   ├── images/
-│   ├── resume/
-│   └── logo/
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── index.html
-│
-└── README.md
-```
-
----
-
-## 📌 Sections
-
-- Home
-- About
-- Skills
-- Projects
-- Professional Journey
-- Contact
-- Footer
-
----
-
-## 🌙 Dark Mode
-
-The portfolio includes a custom dark mode with dynamic color variables using CSS Custom Properties.
-
----
-
-## 📱 Responsive Design
-
-The website is fully responsive and optimized for:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
-
----
-
-## 🚀 Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/GPragadeeswaran/pragadeesh-portfolio.git
-```
-
-Open the project:
-
-```bash
-cd pragadeesh-portfolio
-```
-
-Run locally by opening:
-
-```
-index.html
-```
-
-or use VS Code Live Server.
-
----
-
-## 📬 Contact
-
-**Pragadeeshwaran**
-
-📧 Email: pragadeeswaran611@gmail.com
-
-💼 LinkedIn:
-https://www.linkedin.com/in/gpragadeeswaran/
-
-💻 GitHub:
-https://github.com/GPragadeeswaran
-
----
-
-## 📄 License
-
-This project is created for personal portfolio purposes.
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub.
+*Building practical software, one project at a time.*
